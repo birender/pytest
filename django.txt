@@ -1,0 +1,27 @@
+conda create --name myDjangoEnv django
+
+conda activate myDjangoEnv
+
+conda deactivate
+
+conda info --envs
+
+conda install django
+
+install django for normal installation
+pip install django
+
+Start Django Project
+django-admin startproject first_project
+
+cd first_project
+python manage.py runserver
+
+python manage.py startapp <application_name>
+
+python manage.py migrate
+
+python manage.py makemigrations <application_name>
+
+Again Run command to migrate
+python manage.py migrate
